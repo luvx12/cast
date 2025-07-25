@@ -1,6 +1,6 @@
 module github.com/luvx12/cast
 
-go 1.19
+go 1.21.0
 
 require github.com/frankban/quicktest v1.14.6
 
