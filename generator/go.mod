@@ -1,4 +1,4 @@
-module github.com/spf13/cast/generator
+module github.com/luvx12/cast/generator
 
 go 1.24.3
 

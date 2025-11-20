@@ -9,8 +9,7 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-
-	"github.com/spf13/cast"
+	"github.com/luvx12/cast"
 )
 
 func runMapTests[K comparable, V cast.Basic | any](t *testing.T, testCases []testCase, to func(i any) map[K]V, toErr func(i any) (map[K]V, error)) {

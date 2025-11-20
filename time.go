@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/spf13/cast/internal"
+	"github.com/luvx12/cast/internal"
 )
 
 // ToTimeE any value to a [time.Time] type.

@@ -11,8 +11,7 @@ import (
 	"time"
 
 	qt "github.com/frankban/quicktest"
-
-	"github.com/spf13/cast"
+	"github.com/luvx12/cast"
 )
 
 func runSliceTests[T cast.Basic | any](t *testing.T, testCases []testCase, to func(i any) []T, toErr func(i any) ([]T, error)) {

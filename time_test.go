@@ -13,9 +13,8 @@ import (
 	"time"
 
 	qt "github.com/frankban/quicktest"
-
-	"github.com/spf13/cast"
-	"github.com/spf13/cast/internal"
+	"github.com/luvx12/cast"
+	"github.com/luvx12/cast/internal"
 )
 
 func TestTime(t *testing.T) {
